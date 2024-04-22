@@ -16,6 +16,9 @@
 		894A2CEB2BD43EBF00399890 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A2CEA2BD43EBF00399890 /* ColorExtension.swift */; };
 		894A2CED2BD4476100399890 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A2CEC2BD4476100399890 /* CustomButtonView.swift */; };
 		894A2CEF2BD4585500399890 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A2CEE2BD4585500399890 /* GradientButtonStyle.swift */; };
+		894A2CF12BD6038D00399890 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A2CF02BD6038D00399890 /* CustomCircleView.swift */; };
+		894A2CF32BD6051900399890 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A2CF22BD6051900399890 /* MotionAnimationView.swift */; };
+		894A2CF62BD60EB300399890 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A2CF52BD60EB300399890 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		894A2CEA2BD43EBF00399890 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		894A2CEC2BD4476100399890 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		894A2CEE2BD4585500399890 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		894A2CF02BD6038D00399890 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		894A2CF22BD6051900399890 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		894A2CF52BD60EB300399890 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,7 @@
 			children = (
 				894A2CE92BD43EAF00399890 /* Utilities */,
 				894A2CD42BD24C0300399890 /* HikeApp.swift */,
-				894A2CD62BD24C0300399890 /* ContentView.swift */,
+				894A2CF42BD60EA100399890 /* Screen */,
 				894A2CD82BD24C0800399890 /* Assets.xcassets */,
 				894A2CDA2BD24C0800399890 /* Preview Content */,
 				894A2CE62BD43E4F00399890 /* Components */,
@@ -85,6 +91,8 @@
 				894A2CE42BD24EC500399890 /* CardView.swift */,
 				894A2CE72BD43E9200399890 /* CustomBackgroundView.swift */,
 				894A2CEC2BD4476100399890 /* CustomButtonView.swift */,
+				894A2CF02BD6038D00399890 /* CustomCircleView.swift */,
+				894A2CF22BD6051900399890 /* MotionAnimationView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -96,6 +104,15 @@
 				894A2CEE2BD4585500399890 /* GradientButtonStyle.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		894A2CF42BD60EA100399890 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				894A2CD62BD24C0300399890 /* ContentView.swift */,
+				894A2CF52BD60EB300399890 /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				894A2CD72BD24C0300399890 /* ContentView.swift in Sources */,
+				894A2CF12BD6038D00399890 /* CustomCircleView.swift in Sources */,
 				894A2CE52BD24EC500399890 /* CardView.swift in Sources */,
 				894A2CD52BD24C0300399890 /* HikeApp.swift in Sources */,
 				894A2CED2BD4476100399890 /* CustomButtonView.swift in Sources */,
+				894A2CF62BD60EB300399890 /* SettingsView.swift in Sources */,
+				894A2CF32BD6051900399890 /* MotionAnimationView.swift in Sources */,
 				894A2CEF2BD4585500399890 /* GradientButtonStyle.swift in Sources */,
 				894A2CE82BD43E9200399890 /* CustomBackgroundView.swift in Sources */,
 				894A2CEB2BD43EBF00399890 /* ColorExtension.swift in Sources */,
